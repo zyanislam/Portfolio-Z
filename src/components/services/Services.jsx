@@ -8,7 +8,7 @@ const Services = () => {
   }
 
   return (
-    <section className='services section' id='services'>
+    <section className='services section' id='experiences'>
       <h2 className='section__title'>Professional Experience</h2>
       <span className='section__subtitle'>Experiences I have Acquired</span>
 

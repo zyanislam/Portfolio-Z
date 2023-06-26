@@ -31,15 +31,15 @@ const Header = () => {
                         </a>
                         </li>
                     <li className="nav__list grid">
-                        <a href="#services" className="nav__link">
+                        <a href="#experiences" className="nav__link">
                             <i class="uil uil-location-arrow nav__icon">
                             </i> Experience
                         </a>
                     </li>
                     <li className="nav__list grid">
-                        <a href="#contact" className="nav__link">
+                        <a href="#references" className="nav__link">
                             <i class="uil uil-message nav__icon">
-                            </i> Contact
+                            </i> References
                         </a>
                     </li>
                 </ul>
