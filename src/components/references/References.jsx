@@ -4,7 +4,7 @@ import { Data } from './Data'
 
 const References = () => {
   return (
-    <section className='references section' id='references'>
+    <section className='references container section' id='references'>
       <h2 className='section__title'>References</h2>
       <span className='section__subtitle'> Professionals who can vouch for my skills and work history</span>
 
