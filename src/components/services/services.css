@@ -26,6 +26,13 @@
     font-weight: var(--font-medium);
 }
 
+.services__subtitle{
+    text-align: center;
+    display: block;
+    font-size: var(--small-font-size);
+    margin-bottom: 1.2rem;
+}
+
 .services__button{
     color: #303234;
     font-size: var(--small-font-size);

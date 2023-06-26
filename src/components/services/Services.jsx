@@ -10,13 +10,14 @@ const Services = () => {
   return (
     <section className='services section' id='services'>
       <h2 className='section__title'>Professional Experience</h2>
-      <span className='section__subtitle'>Work/Service I am Familiar with</span>
+      <span className='section__subtitle'>Experiences I have Acquired</span>
 
       <div className='services__container container grid'>
         <div className='services__content'>
             <div>
               <i className="uil uil-web-grid services__icon"></i>
-              <h3 className="services__title">Trainee<br />SQA Engineer</h3>
+            <h3 className="services__title">Trainee<br />SQA Engineer</h3>
+            <a className='services__subtitle' href="https://cdip.uiu.ac.bd" target="_blank" rel="noopener noreferrer">CDIP,<br/> United Interantional University</a>
             </div>
 
           <span className="services__button"
@@ -75,6 +76,7 @@ const Services = () => {
             <div>
               <i className="uil uil-arrow services__icon"></i>
               <h3 className="services__title">Undergraduate<br />Teaching Assistant</h3>
+              <a className='services__subtitle' href="https://www.uiu.ac.bd" target="_blank" rel="noopener noreferrer">United International University</a>
             </div>
 
           <span className="services__button"
