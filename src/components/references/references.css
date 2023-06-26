@@ -21,3 +21,7 @@
 .reference__desig, .reference__insti, .reference__email{
     font-size: var(--small-font-size);
 }
+
+.swiper-pagination-bullet{
+    background-color: #ffbb55 !important;
+}
