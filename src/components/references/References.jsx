@@ -1,13 +1,24 @@
 import React from 'react'
+import "./references.css"
+import { Data } from './Data'
 
 const References = () => {
   return (
-    <section className='services section' id='services'>
+    <section className='references section' id='references'>
       <h2 className='section__title'>References</h2>
-      <span className='section__subtitle'> Professionals who can vouch for my character, skills and work history</span>
+      <span className='section__subtitle'> Professionals who can vouch for my skills and work history</span>
 
-      <div className='services__container container grid'>
-        
+      <div className='references__container'>
+              {Data.map(({ id, title, designation, institution, email }) => {
+                  return (
+                    <div className='reference_card' key={id}>
+                          <h3 className='reference__name'>{title}</h3>
+                          <h4 className='reference__desig'>{designation}</h4>
+                          <h4 className='reference__insti'>{institution}</h4>
+                          <h4 className='reference__email'>{email}</h4>
+                    </div>
+            )
+        })}
       </div>
     </section>
   )

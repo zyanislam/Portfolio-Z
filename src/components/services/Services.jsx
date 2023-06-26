@@ -129,6 +129,8 @@ const Services = () => {
             <div>
               <i className="uil uil-edit services__icon"></i>
               <h3 className="services__title">Graphics &<br />UI Designer</h3>
+              <a className='services__subtitle' href="https://www.freelancer.com" target="_blank" rel="noopener noreferrer">Freelancer</a>
+            
             </div>
 
           <span className="services__button"
