@@ -2,6 +2,11 @@ import React from 'react'
 import "./references.css"
 import { Data } from './Data'
 
+import { Swiper, SwiperSlide } from "swiper/react";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+
 const References = () => {
   return (
     <section className='references container section' id='references'>
