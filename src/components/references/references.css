@@ -19,9 +19,13 @@
 }
 
 .reference__desig, .reference__insti, .reference__email{
-    font-size: var(--small-font-size);
+    font-size: var(--smaller-font-size);
 }
 
 .swiper-pagination-bullet{
     background-color: #ffbb55 !important;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: #ffb31c !important;
 }

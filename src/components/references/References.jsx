@@ -31,18 +31,18 @@ const References = () => {
                 },
                 768: {
                 slidesPerView: 2,
-                spaceBetween: 48,
+                spaceBetween: 44,
                 },
             }}
           modules={[Pagination]}>
               {Data.map(({ id, title, designation, institution, email }) => {
-                  return (
-                    <SwiperSlide className='reference__card' key={id}>
-                          <h2 className='reference__name'>{title}</h2>
-                          <h4 className='reference__desig'>{designation}</h4>
-                          <h4 className='reference__insti'>{institution}</h4>
-                          <h4 className='reference__email'>Email: {email}</h4>
-                    </SwiperSlide>
+                return (
+                  <SwiperSlide className='reference__card' key={id}>
+                        <h2 className='reference__name'>{title}</h2>
+                        <h3 className='reference__desig'>{designation}</h3>
+                        <span className='reference__insti'>{institution}</span> <br />
+                        <span className='reference__email'>Email: {email}</span>
+                  </SwiperSlide>
             )
         })}
       </Swiper>
