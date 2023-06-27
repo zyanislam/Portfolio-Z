@@ -8,7 +8,7 @@
     position: relative;
     border: 1px solid rgba(0,0,0,0.1);
     background-color: var(--container-color);
-    padding: 4rem;
+    padding: 3.5rem;
     border-radius: 2.3rem;
     text-align: center;
 }
