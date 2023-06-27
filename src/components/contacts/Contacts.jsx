@@ -58,7 +58,7 @@ const Contacts = () => {
               />
             </div>
             
-            <div className='contact__form-div'>
+            <div className='contact__form-div contact__form-area'>
               <label className="contact__form-tag">Project</label>
               <textarea
                 name="project"
