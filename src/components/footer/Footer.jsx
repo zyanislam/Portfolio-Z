@@ -9,15 +9,41 @@ const Footer = () => {
             
             <ul className='footer__list'> 
                 <li>
-                    <a href="#" className='footer__link'></a>
+                    <a href="#about" className='footer__link'>About</a>
                 </li>
                 <li>
-                    <a href="#" className='footer__link'></a>
+                    <a href="#skills" className='footer__link'>Skills</a>
                 </li>
                 <li>
-                    <a href="#" className='footer__link'></a>
+                    <a href="#experiences" className='footer__link'>Experience</a>
                 </li>
             </ul>
+            
+            <div className='footer__social'>
+                <a
+                    href="https://www.facebook.com/amazzyan/" className='footer__social-link'
+                    target="_blank" rel="noopener noreferrer"
+                >
+                    <i class="bx bxl-facebook"></i>
+                </a>
+
+                <a
+                    href="https://www.linkedin.com/in/fahadalislam/"
+                    className='footer__social-link'
+                    target="_blank" rel="noopener noreferrer"
+                >
+                    <i class="bx bxl-linkedin"></i>
+                </a>
+
+                <a
+                    href="https://github.com/zyanislam"
+                    className='footer__social-link'
+                    target="_blank" rel="noopener noreferrer"
+                >
+                    <i class="bx bxl-github"></i>
+                </a>
+            </div>
+
             
         </div>
       </footer>
