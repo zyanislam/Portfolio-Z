@@ -47,8 +47,7 @@ const About = () => {
             </svg>
           </a>
         </div>
-        
-        <ScrollDown />
+
       </div>
     </section>
   )
