@@ -46,7 +46,7 @@ const Contacts = () =>
         </div>
 
         <div className='contact__content'>
-          <h3 className='contact__title'>Write me your project</h3>
+          <h3 className='contact__title'>Write me a mail</h3>
 
           <form ref={form} onSubmit={sendEmail} className='contact__form'>
             <div className='contact__form-div'>
@@ -70,13 +70,13 @@ const Contacts = () =>
             </div>
             
             <div className='contact__form-div contact__form-area'>
-              <label className="contact__form-tag">Project</label>
+              <label className="contact__form-tag">Message</label>
               <textarea
                 name="project"
                 rows="10"
                 cols="30"
                 className='contact__form-input'
-                placeholder="Write about your project">
+                placeholder="What's on your mind!!">
                 </textarea>
             </div>
 
