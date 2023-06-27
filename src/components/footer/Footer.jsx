@@ -43,6 +43,14 @@ const Footer = () => {
                     <i class="bx bxl-github"></i>
                 </a>
             </div>
+            
+            <div className='footer__copyright'>
+                &#169; 2023 | All Rights Reserved  
+            </div>
+              
+            <div className='footer__dev'>
+                Developed By Z.
+            </div>
 
             
         </div>
