@@ -3,8 +3,6 @@ import "./about.css"
 import AboutImg from "../../assets/about.png"
 import CV from "../../assets/CV.pdf"
 import Info from "./Info"
-import ScrollDown from './ScrollDown';
-
 
 const About = () => {
   return (
