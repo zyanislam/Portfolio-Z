@@ -60,7 +60,6 @@
 
 .home__subtitle2{
     position: relative;
-
     font-size: var(--h3-font-size);
     padding-left: 5.2rem;
     font-weight: var(--font-normal);
@@ -172,6 +171,11 @@
         top: 0.8rem;
     }
 
+    .home__subtitle2::before{
+        width: 42px;
+        top: 0.8rem;
+    }
+
     .home__description{
         max-width: initial;
         margin-bottom: var(--mb-2-5);
@@ -190,8 +194,8 @@
 
 @media screen and (max-width: 768px) {
     .home__content{
-        grid-template-columns: 0.5fr, 3fr;
-        padding-top: 3.5rem;
+        grid-template-columns: 0.5fr, 2.5fr;
+        padding-top: 2.5rem;
     }
 
     .home__img{
@@ -216,7 +220,12 @@
 
 /* For small devices */
 @media screen and (max-width: 350px) {
-    
+    .home__social{
+        padding-right: 0;
+        display: grid;
+        grid-template-columns: min-content ;
+    }
+
     .home__img{
         width: 180px;
         height: 180px;
@@ -226,6 +235,7 @@
         width: 22px;
         height: 22px;
     }
+
 }
 
 

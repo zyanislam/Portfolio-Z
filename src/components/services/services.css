@@ -136,6 +136,10 @@
     .services__container{
         grid-template-columns: repeat(3, 218px);
     }
+
+    .services__content{
+        padding: 1.5rem 2rem 2rem 2rem;
+    }
 }
 
 /* For medium devices */
