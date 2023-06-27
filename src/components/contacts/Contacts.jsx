@@ -1,4 +1,5 @@
 import React from 'react'
+import './contacts.css'
 
 const Contacts = () => {
   return (
@@ -68,8 +69,8 @@ const Contacts = () => {
                 </textarea>
             </div>
 
-            <a className='button button--flex'>
-              Say Hello
+            <button className='button button--flex'>
+              Send Message!
               <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
@@ -87,7 +88,7 @@ const Contacts = () => {
                   fill="var(--container-color)"
                 ></path>
               </svg>
-            </a>
+            </button>
           </form>
         </div>
       </div>
