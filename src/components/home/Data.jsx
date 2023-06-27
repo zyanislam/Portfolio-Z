@@ -59,7 +59,7 @@ const Data = () => {
       <h3 className='home__subtitle2'>Software Quality Testing Trainee</h3>
       <p className='home__description'>I'm currently on my last year of Bachelor's on Computer Science. I'm passionate about developing softwares that solves real-life problems, design aesthetic UI's & currently building a career in Software Quality Assurance & Testing.</p>
       <p className='home__description'><i class="uil uil-map-pin-alt home__icon"></i> <b className='home__location'>Dhaka</b>, Bangladesh.</p>
-      <a href="#contact" className='button button--flex'>
+      <a href="#contacts" className='button button--flex'>
         Say Hello
         <svg
           class="button__icon"
