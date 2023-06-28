@@ -8,6 +8,7 @@ import Services from './components/services/Services';
 import References from './components/references/References';
 import Contacts from './components/contacts/Contacts';
 import Footer from './components/footer/Footer';
+import ScrollUp from './components/scrollup/ScrollUp';
 
 const App = () => {
   return (
@@ -28,6 +29,8 @@ const App = () => {
         <Contacts />
 
         <Footer />
+
+        <ScrollUp />
       </main>
     </>
   )
