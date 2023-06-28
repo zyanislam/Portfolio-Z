@@ -39,7 +39,6 @@ const Contacts = () =>
               <h3 className='contact__card-title'>Messenger</h3>
               <span className='contact__card-data'>amazzyan</span>
               
-              <a href="a" className='contact__button'>Write me {""}<i className='bx bx-right-arrow-alt contact__button-icon'></i> </a>
             </div>
           </div>
 
