@@ -28,10 +28,11 @@ const App = () => {
         
         <Contacts />
 
-        <Footer />
-
-        <ScrollUp />
       </main>
+      
+      <Footer />
+
+      <ScrollUp />
     </>
   )
 }
