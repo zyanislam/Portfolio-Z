@@ -1,54 +1,80 @@
-import React, { useRef } from 'react'
-import './contacts.css'
-import emailjs from '@emailjs/browser';
+import React, { useRef, useState } from "react";
+import "./contacts.css";
+import emailjs from "@emailjs/browser";
 
-const Contacts = () => 
-{
+const Contacts = () => {
   const form = useRef();
+  const [showSuccessPopup, setShowSuccessPopup] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_1xwj7mi', 'template_ql8rz41', form.current, 'hxjoJvNeGaroRxLoE')
-      e.target.reset()
+    // Access form fields
+    const name = form.current.name.value;
+    const email = form.current.email.value;
+    const message = form.current.project.value;
+
+    // Validate message
+    if (message.trim() === "" || name.trim() === "" || email.trim() === "") {
+      alert("Message cannot be empty. Please enter a message.");
+      return;
+    }
+
+    // Send the email using emailjs
+    emailjs.sendForm(
+      "service_1xwj7mi",
+      "template_ql8rz41",
+      form.current,
+      "hxjoJvNeGaroRxLoE"
+    );
+
+    // Reset the form
+    e.target.reset();
+
+    setShowSuccessPopup(true);
   };
 
   return (
-    <section className='contacts section' id='contacts'>
-      <h2 className='section__title'>Contact Details</h2>
-      <span className='section__subtitle'>Ways to get in touch with me</span>
-      
-      <div className='contact__container container grid'>
-        
-        <div className='contact__content'>
-          <h3 className='contact__title'>Talk to me</h3>
+    <section className="contacts section" id="contacts">
+      <h2 className="section__title">Contact Details</h2>
+      <span className="section__subtitle">Ways to get in touch with me</span>
 
-          <div className='contact__info'>
-            <div className='contact__card'>
-              <i className='bx bx-mail-send contact__card-icon'></i>
-              
-              <h3 className='contact__card-title'>Email</h3>
-              <span className='contact__card-data'>sheikh.zyanislam@gmail.com</span>
-              
-              <a href="mailto:sheikh.zyanislam@gmail.com.com" className='contact__button'>Write me {" "}<i className='bx bx-right-arrow-alt contact__button-icon'></i> </a>
+      <div className="contact__container container grid">
+        <div className="contact__content">
+          <h3 className="contact__title">Talk to me</h3>
+
+          <div className="contact__info">
+            <div className="contact__card">
+              <i className="bx bx-mail-send contact__card-icon"></i>
+
+              <h3 className="contact__card-title">Email</h3>
+              <span className="contact__card-data">
+                sheikh.zyanislam@gmail.com
+              </span>
+
+              <a
+                href="mailto:sheikh.zyanislam@gmail.com.com"
+                className="contact__button"
+              >
+                Write me{" "}
+                <i className="bx bx-right-arrow-alt contact__button-icon"></i>{" "}
+              </a>
             </div>
 
-            <div className='contact__card'>
-              <i className='bx bxl-messenger contact__card-icon'></i>
-              
-              <h3 className='contact__card-title'>Messenger</h3>
-              <span className='contact__card-data'>amazzyan</span>
-              
+            <div className="contact__card">
+              <i className="bx bxl-messenger contact__card-icon"></i>
+
+              <h3 className="contact__card-title">Messenger</h3>
+              <span className="contact__card-data">amazzyan</span>
             </div>
           </div>
-
         </div>
 
-        <div className='contact__content'>
-          <h3 className='contact__title'>Write me a mail</h3>
+        <div className="contact__content">
+          <h3 className="contact__title">Write me a mail</h3>
 
-          <form ref={form} onSubmit={sendEmail} className='contact__form'>
-            <div className='contact__form-div'>
+          <form ref={form} onSubmit={sendEmail} className="contact__form">
+            <div className="contact__form-div">
               <label className="contact__form-tag">Name</label>
               <input
                 type="text"
@@ -57,8 +83,8 @@ const Contacts = () =>
                 placeholder="Write your name"
               />
             </div>
-            
-            <div className='contact__form-div'>
+
+            <div className="contact__form-div">
               <label className="contact__form-tag">Mail</label>
               <input
                 type="email"
@@ -67,19 +93,19 @@ const Contacts = () =>
                 placeholder="Write your email"
               />
             </div>
-            
-            <div className='contact__form-div contact__form-area'>
+
+            <div className="contact__form-div contact__form-area">
               <label className="contact__form-tag">Message</label>
               <textarea
                 name="project"
                 rows="10"
                 cols="30"
-                className='contact__form-input'
-                placeholder="What's on your mind!!">
-                </textarea>
+                className="contact__form-input"
+                placeholder="What's on your mind!!"
+              ></textarea>
             </div>
 
-            <button className='button button--flex'>
+            <button className="button button--flex">
               Send Message!
               <svg
                 class="button__icon"
@@ -100,10 +126,20 @@ const Contacts = () =>
               </svg>
             </button>
           </form>
+          {showSuccessPopup && (
+            <div className="overlay">
+              <div className="popup">
+                <p>Email sent successfully!</p>
+                <button onClick={() => setShowSuccessPopup(false)}>
+                  Close
+                </button>
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </section>
   );
 };
 
-export default Contacts
+export default Contacts;
