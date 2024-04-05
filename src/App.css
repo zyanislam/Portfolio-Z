@@ -84,14 +84,14 @@ textarea {
 }
 
 body {
-  background-color: var(--body-color);
+  background-color: #1f1f1f;
   color: var(--text-color);
 }
 
 h1,
 h2,
 h3 {
-  color: var(--title-color);
+  color: #dfdfdf;
   font-weight: var(--font-semi-bold);
 }
 
@@ -121,7 +121,7 @@ img {
 
 .section__title {
   font-size: var(--h1-font-size);
-  color: var(--title-color);
+  color: DFDFDF;
 }
 
 .section__subtitle {
@@ -151,7 +151,7 @@ img {
 .button {
   display: inline-block;
   /* background-color: #393939; */
-  background-color: #ffbb55;
+  background-color: #9898ff;
   /* background-color: #FAB23D; */
   color: var(--container-color);
   padding: 1.25rem 2.5rem;
@@ -160,7 +160,7 @@ img {
 }
 
 .button:hover {
-  background-color: #ffb31c;
+  background-color: #6c6cff;
 }
 
 .button__icon {

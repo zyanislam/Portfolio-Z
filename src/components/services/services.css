@@ -7,7 +7,7 @@
 .services__content {
   position: relative;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  background-color: var(--container-color);
+  background-color: #121212;
   padding: 3.5rem;
   border-radius: 2.3rem;
   text-align: center;

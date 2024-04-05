@@ -63,17 +63,14 @@ const Data = () => {
       <p className="home__description">
         {" "}
         I am Fahad Al Islam, 24 years old, and currently employed as a Software
-        Engineer Intern at RedDot Digital Limited <strong>
-          (Robi Axieta)
-        </strong>{" "}
-        in Bangladesh. I have a undergrad degree in Computer Science &
-        Engineering from United International University completed in September
-        2023.{" "}
+        Engineer at RedDot Digital Limited <strong>(Robi Axiata)</strong> in
+        Bangladesh. I graduated with a Bachelor's degree in Computer Science &
+        Engineering from United International University in September 2023.{" "}
       </p>{" "}
       <p className="home__description">
         {" "}
         <i class="uil uil-map-pin-alt home__icon"> </i>{" "}
-        <b className="home__location"> Dhaka </b> , Bangladesh.{" "}
+        <b className="home__location"> Dhaka Cantonment</b> , Bangladesh.{" "}
       </p>{" "}
       <a href="#contacts" className="button button--flex">
         Say Hello{" "}
