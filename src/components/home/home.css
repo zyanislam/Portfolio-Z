@@ -83,7 +83,7 @@
 
 
 .home__img{
-    background: url(../../assets/DP2bw.jpg);
+    background-image: url(../../assets/DP2bw.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
