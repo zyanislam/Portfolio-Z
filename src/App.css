@@ -13,7 +13,7 @@
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
-  --container-color: #fff;
+  --container-color: #766a6a;
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
@@ -91,7 +91,7 @@ body {
 h1,
 h2,
 h3 {
-  color: #dfdfdf;
+  color: #fff4f4;
   font-weight: var(--font-semi-bold);
 }
 
