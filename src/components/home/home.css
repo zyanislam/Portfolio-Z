@@ -3,7 +3,7 @@
 }
 
 .home__data {
-  margin-top: 3rem;
+  margin-top: 6rem;
 }
 
 .home__content {
@@ -49,7 +49,7 @@
 }
 
 .home__title {
-  font-size: var(--semi-big-font-size);
+  font-size: 2.2rem;
   margin-bottom: var(--mb-0-25);
 }
 
@@ -66,7 +66,7 @@
 .home__subtitle {
   position: relative;
   font-size: var(--h3-font-size);
-  padding-left: 5.2rem;
+
   font-weight: var(--font-normal);
   /* margin-bottom: var(--mb-1); */
 }
@@ -74,7 +74,7 @@
 .home__subtitle2 {
   position: relative;
   font-size: var(--h3-font-size);
-  padding-left: 5.2rem;
+
   font-weight: var(--font-normal);
   margin-bottom: var(--mb-1);
 }
@@ -154,15 +154,6 @@
   .home__hand {
     width: 26px;
     height: 26px;
-  }
-
-  .home__subtitle {
-    padding-left: 3.75rem;
-  }
-
-  .home__subtitle2 {
-    padding-left: 3.75rem;
-    margin-bottom: var(--mb-1);
   }
 
   .home__subtitle::before {
