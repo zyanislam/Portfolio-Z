@@ -16,7 +16,7 @@ const Services = () => {
         <div className="services__content">
           <div>
             <i className="uil uil-arrow services__icon"></i>
-            <h3 className="services__title">Software Engineer Intern</h3>
+            <h3 className="services__title">Software Engineer</h3>
             <a
               className="services__subtitle"
               href="https://www.reddotdigitalit.com"
@@ -45,9 +45,7 @@ const Services = () => {
                 onClick={() => toggleTab(0)}
               ></i>
 
-              <h3 className="services__modal-title">
-                Software Engineer Intern
-              </h3>
+              <h3 className="services__modal-title">Software Engineer</h3>
               <p className="services__modal-description">
                 Currently working as a Software Engineer Intern at{" "}
                 <a
