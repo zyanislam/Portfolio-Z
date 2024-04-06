@@ -132,7 +132,7 @@
 }
 
 .home__scroll-name {
-  color: var(--text-color);
+  color: #fff4f4;
   font-weight: var(--font-medium);
   margin-right: var(--mb-0-25);
   margin-left: 2px;

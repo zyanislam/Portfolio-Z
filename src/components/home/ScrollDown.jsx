@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
 const ScrollDown = () => {
   return (
-    <div className='home__scroll'>
-      <a href="#about" className='home_scroll-button button--flex'>
+    <div className="home__scroll">
+      <a href="#about" className="home_scroll-button button--flex">
         <svg
           width="32px"
           height="32px"
@@ -39,11 +39,11 @@ const ScrollDown = () => {
             }}
           ></path>
         </svg>
-        <span className='home__scroll-name'>Scroll Down</span>
+        <span className="home__scroll-name">Scroll Down</span>
         <i class="uil uil-angle-down home__scroll-arrow"></i>
       </a>
     </div>
-  )
-}
+  );
+};
 
-export default ScrollDown
+export default ScrollDown;
