@@ -84,7 +84,10 @@ textarea {
 }
 
 body {
-  background-color: #1f1f1f;
+  background-image: url(./assets/Bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: var(--text-color);
 }
 
@@ -151,9 +154,9 @@ img {
 .button {
   display: inline-block;
   /* background-color: #393939; */
-  background-color: #9898ff;
+  background-color: #85b6ff;
   /* background-color: #FAB23D; */
-  color: var(--container-color);
+  color: #fff4f4;
   padding: 1.25rem 2.5rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);

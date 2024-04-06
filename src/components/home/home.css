@@ -35,17 +35,17 @@
 
 .home__social-icon {
   font-size: 2.2rem;
-  color: #9898ff;
+  color: #85b6ff;
 }
 
 .home__location {
-  color: #9898ff;
+  color: #ff8971;
   font-size: 1rem;
 }
 
 .home__social-icon:hover {
   /* color: var(--title-color-dark); */
-  color: #6c6cff;
+  color: #4c94ff;
 }
 
 .home__title {
