@@ -59,11 +59,11 @@ const Data = () => {
         Software Engineer <strong> @ </strong> RedDot Digital Limited
       </h3>
       <p className="home__description">
-        Currently serving as a Software Engineer & also UI Developer at RedDot
-        Digital Limited <strong>(a subsidiary of Robi Axiata)</strong> in
-        Bangladesh, since October 1st, 2023. I hold a Bachelor's degree in
-        Computer Science & Engineering from United International University,
-        graduating in <strong>September 2023</strong>.
+        Currently serving as a Software Engineer & also as a UI Developer at
+        RedDot Digital Limited <strong>(a subsidiary of Robi Axiata)</strong> in
+        Bangladesh, since October 1st, 2023. I graduated with a Bachelor's
+        degree in Computer Science & Engineering from United International
+        University, in <strong>September 2023</strong>.
       </p>
       <p className="home__description">
         <i class="uil uil-map-pin-alt home__icon"> </i>

@@ -17,13 +17,14 @@ const Services = () => {
           <div>
             <i className="uil uil-arrow services__icon"></i>
             <h3 className="services__title">Software Engineer</h3>
+            <p className="services__subtitle2">2023 - Present</p>
             <a
               className="services__subtitle"
               href="https://www.reddotdigitalit.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              RedDot Digital Limited, Robi Axieta
+              RedDot Digital Limited (Robi Axieta)
             </a>
           </div>
 
@@ -47,7 +48,7 @@ const Services = () => {
 
               <h3 className="services__modal-title">Software Engineer</h3>
               <p className="services__modal-description">
-                Currently working as a Software Engineer Intern at{" "}
+                Currently working as a Software Engineer at{" "}
                 <a
                   href="https://www.reddotdigitalit.com"
                   target="_blank"
@@ -87,7 +88,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="services__content">
+        {/* <div className="services__content">
           <div>
             <i className="uil uil-web-grid services__icon"></i>
             <h3 className="services__title">
@@ -165,6 +166,79 @@ const Services = () => {
               </ul>
             </div>
           </div>
+        </div> */}
+
+        <div className="services__content">
+          <div>
+            <i className="uil uil-edit services__icon"></i>
+            <h3 className="services__title">
+              UI / UX <br /> Developer
+            </h3>
+            <p className="services__subtitle2">2019 - Present</p>
+
+            <a
+              className="services__subtitle"
+              href="https://www.reddotdigitalit.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              RedDot Digital Limited (Robi Axieta)
+            </a>
+          </div>
+
+          <span className="services__button" onClick={() => toggleTab(4)}>
+            View More
+            <i className="uil uil-arrow-right services__button-icon"></i>
+          </span>
+
+          <div
+            className={
+              toggleState === 4
+                ? "services__modal active-modal"
+                : "services__modal"
+            }
+          >
+            <div className="services__modal-content">
+              <i
+                className="uil uil-times services__modal-close"
+                onClick={() => toggleTab(0)}
+              ></i>
+
+              <h3 className="services__modal-title">Graphics & UI Designer</h3>
+              <p className="services__modal-description">
+                From 2019 to 2022, I provided service as a Graphics/UI Designer
+                to make exceptional UI designs, logo creations, and banner
+                designs etc. This period allowed me to refine my skills, learn
+                industry grade tools and deliver high-quality works, and build a
+                strong portfolio showcasing my creative expertise in graphic
+                design.
+              </p>
+
+              <ul className="services__modal-services grid">
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Designed User Interfaces | <strong>Figma</strong>
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Designed Logos & Business Cards |{" "}
+                    <strong>Illustrator</strong>
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Designed Product Pamphlets and Covers
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
 
         <div className="services__content">
@@ -173,8 +247,9 @@ const Services = () => {
             <h3 className="services__title">
               Undergraduate
               <br />
-              Teaching Assistant
+              TA
             </h3>
+            <p className="services__subtitle2">June - September 2023</p>
             <a
               className="services__subtitle"
               href="https://www.uiu.ac.bd"
@@ -239,78 +314,6 @@ const Services = () => {
                   <p className="services__modal-info">
                     Teaching them the tricks of programming that helped me out
                     in my first-year of university.
-                  </p>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div className="services__content">
-          <div>
-            <i className="uil uil-edit services__icon"></i>
-            <h3 className="services__title">
-              Graphics &<br />
-              UI Designer
-            </h3>
-            <a
-              className="services__subtitle"
-              href="https://www.freelancer.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Freelancer
-            </a>
-          </div>
-
-          <span className="services__button" onClick={() => toggleTab(4)}>
-            View More
-            <i className="uil uil-arrow-right services__button-icon"></i>
-          </span>
-
-          <div
-            className={
-              toggleState === 4
-                ? "services__modal active-modal"
-                : "services__modal"
-            }
-          >
-            <div className="services__modal-content">
-              <i
-                className="uil uil-times services__modal-close"
-                onClick={() => toggleTab(0)}
-              ></i>
-
-              <h3 className="services__modal-title">Graphics & UI Designer</h3>
-              <p className="services__modal-description">
-                From 2019 to 2022, I provided service as a Graphics/UI Designer
-                to make exceptional UI designs, logo creations, and banner
-                designs etc. This period allowed me to refine my skills, learn
-                industry grade tools and deliver high-quality works, and build a
-                strong portfolio showcasing my creative expertise in graphic
-                design.
-              </p>
-
-              <ul className="services__modal-services grid">
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Designed User Interfaces | <strong>Figma</strong>
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Designed Logos & Business Cards |{" "}
-                    <strong>Illustrator</strong>
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Designed Product Pamphlets and Covers
                   </p>
                 </li>
               </ul>

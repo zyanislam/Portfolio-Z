@@ -1,5 +1,5 @@
 .services__container {
-  grid-template-columns: repeat(4, 270px);
+  grid-template-columns: repeat(3, 300px);
   justify-content: center;
   column-gap: 1.8rem;
 }
@@ -16,7 +16,7 @@
 .services__icon {
   display: block;
   font-size: 1.8rem;
-  color: #ffb31c;
+  color: #ff8971;
   margin-bottom: var(--mb-1);
 }
 
@@ -31,6 +31,15 @@
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 1.2rem;
+  color: #85b6ff;
+}
+
+.services__subtitle2 {
+  text-align: center;
+  display: block;
+  font-size: var(--small-font-size);
+  margin-bottom: 1.1rem;
+  color: #b9d5ff;
 }
 
 .services__button {
@@ -40,6 +49,7 @@
   align-items: center;
   column-gap: 0.25rem;
   cursor: pointer;
+  color: #ffffff;
 }
 
 .services__button-icon {

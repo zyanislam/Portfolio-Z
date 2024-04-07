@@ -28,6 +28,15 @@ const Footer = () => {
 
         <div className="footer__social">
           <a
+            href="https://www.behance.net/zyanislam"
+            className="footer__social-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="bx bxl-behance"></i>
+          </a>
+
+          <a
             href="https://www.facebook.com/amazzyan/"
             className="footer__social-link"
             target="_blank"
