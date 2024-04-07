@@ -41,7 +41,7 @@ const Contacts = () => {
 
       <div className="contact__container container grid">
         <div className="contact__content">
-          <h3 className="contact__title">Talk to me</h3>
+          <h3 className="contact__title">Knock Me!</h3>
 
           <div className="contact__info">
             <div className="contact__card">
@@ -62,16 +62,39 @@ const Contacts = () => {
             </div>
 
             <div className="contact__card">
-              <i className="bx bxl-messenger contact__card-icon"></i>
+              <i className="bx bxl-linkedin contact__card-icon"></i>
 
-              <h3 className="contact__card-title">Messenger</h3>
-              <span className="contact__card-data">amazzyan</span>
+              <h3 className="contact__card-title">LinkedIn</h3>
+              <span className="contact__card-data">Fahad A. Islam</span>
+              <a
+                href="https://www.linkedin.com/in/fahadalislam/"
+                className="contact__button"
+                target="_blank"
+              >
+                View Profile{" "}
+                <i className="bx bx-right-arrow-alt contact__button-icon"></i>{" "}
+              </a>
+            </div>
+
+            <div className="contact__card">
+              <i className="bx bxl-facebook contact__card-icon"></i>
+
+              <h3 className="contact__card-title">Facebook</h3>
+              <span className="contact__card-data">Sheikh Fahad A. Islam</span>
+              <a
+                href="https://www.facebook.com/amazzyan/"
+                className="contact__button"
+                target="_blank"
+              >
+                View Profile{" "}
+                <i className="bx bx-right-arrow-alt contact__button-icon"></i>{" "}
+              </a>
             </div>
           </div>
         </div>
 
         <div className="contact__content">
-          <h3 className="contact__title">Write me a mail</h3>
+          <h3 className="contact__title">Or Drop your query here</h3>
 
           <form ref={form} onSubmit={sendEmail} className="contact__form">
             <div className="contact__form-div">
