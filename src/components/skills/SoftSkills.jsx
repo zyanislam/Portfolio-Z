@@ -11,36 +11,7 @@ const SoftSkills = () => {
             <i class="uil uil-bolt icon__box"></i>
 
             <div>
-              <h3 className="skills__name">Docker</h3>
-              <span className="skills__level">Beginner</span>
-            </div>
-          </div>
-
-          <div className="skills__data">
-            <i class="uil uil-bolt icon__box"></i>
-
-            <div>
               <h3 className="skills__name">Figma</h3>
-              <span className="skills__level">Intermediate</span>
-            </div>
-          </div>
-
-          <div className="skills__data">
-            <i class="uil uil-bolt icon__box"></i>
-
-            <div>
-              <h3 className="skills__name">PostgreSQL</h3>
-              <span className="skills__level">Beginner</span>
-            </div>
-          </div>
-        </div>
-
-        <div className="skills__group">
-          <div className="skills__data">
-            <i class="uil uil-bolt icon__box"></i>
-
-            <div>
-              <h3 className="skills__name">Photoshop</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
@@ -58,8 +29,37 @@ const SoftSkills = () => {
             <i class="uil uil-bolt icon__box"></i>
 
             <div>
-              <h3 className="skills__name">GitHub Desktop</h3>
+              <h3 className="skills__name">Photoshop</h3>
               <span className="skills__level">Intermediate</span>
+            </div>
+          </div>
+        </div>
+
+        <div className="skills__group">
+          <div className="skills__data">
+            <i class="uil uil-bolt icon__box"></i>
+
+            <div>
+              <h3 className="skills__name">Lightroom</h3>
+              <span className="skills__level">Intermediate</span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i class="uil uil-bolt icon__box"></i>
+
+            <div>
+              <h3 className="skills__name">Docker</h3>
+              <span className="skills__level">Beginner</span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i class="uil uil-bolt icon__box"></i>
+
+            <div>
+              <h3 className="skills__name">PostgreSQL</h3>
+              <span className="skills__level">Beginner</span>
             </div>
           </div>
         </div>

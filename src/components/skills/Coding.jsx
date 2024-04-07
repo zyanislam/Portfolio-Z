@@ -29,8 +29,8 @@ const Coding = () => {
             <i class="uil uil-brackets-curly icon__box"></i>
 
             <div>
-              <h3 className="skills__name">Java</h3>
-              <span className="skills__level">Intermediate</span>
+              <h3 className="skills__name">Dart</h3>
+              <span className="skills__level">Beginner</span>
             </div>
           </div>
         </div>
@@ -42,6 +42,23 @@ const Coding = () => {
             <div>
               <h3 className="skills__name">Python</h3>
               <span className="skills__level">Intermediate</span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i class="uil uil-brackets-curly icon__box"></i>
+
+            <div>
+              <h3 className="skills__name">Java</h3>
+              <span className="skills__level">Intermediate</span>
+            </div>
+          </div>
+          <div className="skills__data">
+            <i class="uil uil-brackets-curly icon__box"></i>
+
+            <div>
+              <h3 className="skills__name">PHP</h3>
+              <span className="skills__level">Beginner</span>
             </div>
           </div>
 
