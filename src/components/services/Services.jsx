@@ -53,34 +53,56 @@ const Services = () => {
                   href="https://www.reddotdigitalit.com"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="links"
                 >
                   <b>RedDot Digital Limited</b>
                 </a>
-                , Dhaka.
+                , Gulshan 1, Dhaka.
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Automation Testing (Selenium)
+                    Responsibility to design and revamping the RedDot Digital
+                    Website | <strong>WordPress</strong> .
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Database Testing</p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">API Testing</p>
+                  <p className="services__modal-info">
+                    Migration of Robi Axiata's existing{" "}
+                    <strong>Processmaker</strong> tasks to the updated version.
+                  </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Functional & Non-Functional Testing
+                    Containerizing projects like{" "}
+                    <strong>Robi Shareholder Management System (RSMS)</strong>{" "}
+                    and <strong>ProcessMaker</strong> through{" "}
+                    <strong>Docker CLI</strong> , while also acquiring skills to
+                    function as the team's DevOps Engineer.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Created the UI design for an upcoming project for Unilever
+                    Limited while adhering to industry standards and principles
+                    | <strong>Figma</strong>
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Gained hands on experience with technologies like WordPress,
+                    Docker, Odoo, Designing Tools like Figma and Illustrator and
+                    lastly worked the frontend side of Robi Shop Page.
                   </p>
                 </li>
               </ul>
@@ -175,15 +197,17 @@ const Services = () => {
               UI / UX <br /> Developer
             </h3>
             <p className="services__subtitle2">2019 - Present</p>
-
-            <a
-              className="services__subtitle"
-              href="https://www.reddotdigitalit.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              RedDot Digital Limited (Robi Axieta)
-            </a>
+            <span className="services__subtitle">
+              Freelancing &{" "}
+              <a
+                className="services__subtitle"
+                href="https://www.reddotdigitalit.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                RedDot Digital Limited (Robi Axieta)
+              </a>
+            </span>
           </div>
 
           <span className="services__button" onClick={() => toggleTab(4)}>
@@ -204,36 +228,54 @@ const Services = () => {
                 onClick={() => toggleTab(0)}
               ></i>
 
-              <h3 className="services__modal-title">Graphics & UI Designer</h3>
+              <h3 className="services__modal-title">Graphics Designer</h3>
               <p className="services__modal-description">
-                From 2019 to 2022, I provided service as a Graphics/UI Designer
-                to make exceptional UI designs, logo creations, and banner
-                designs etc. This period allowed me to refine my skills, learn
-                industry grade tools and deliver high-quality works, and build a
-                strong portfolio showcasing my creative expertise in graphic
-                design.
+                From 2019 to 2022, I provided service as a Graphics & UI
+                Designer where I made mockups of UI designs, personalized logos
+                and creative banners and posters for events. This period allowed
+                me to refine my skills, learn industry grade tools and deliver
+                high-quality works, and build a strong portfolio showcasing my
+                creative expertise in graphic design.
+              </p>
+
+              <h3 className="services__modal-title">UI / UX Developer</h3>
+              <p className="services__modal-description">
+                <a
+                  className="services__subtitle"
+                  href="https://www.reddotdigitalit.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  RedDot Digital Limited (Robi Axieta)
+                </a>
+                Since 2023 to the present, I have had the valuable opportunity
+                to harness my creative potential and participate in meaningful
+                collaboration with an experienced Professional UI Designer on
+                tangible projects.
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Designed User Interfaces | <strong>Figma</strong>
+                    Revamp UI Design of RedDot's webpage |{" "}
+                    <strong>Figma & WordPress</strong>
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Designed Logos & Business Cards |{" "}
-                    <strong>Illustrator</strong>
+                    Designing personalized logos, business cards, banners etc. |{" "}
+                    <strong>Illustrator & Figma</strong>
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Designed Product Pamphlets and Covers
+                    Making UI mockups with User Stories, for web & mobile
+                    application. | <strong>Behance & Figma</strong>
                   </p>
                 </li>
               </ul>
@@ -282,11 +324,13 @@ const Services = () => {
                 Undergraduate Teaching Assistant
               </h3>
               <p className="services__modal-description">
-                Currently employed as an Undergraduate Assistant(UA) at{" "}
+                During my last semester, I was employed as an Undergraduate
+                Teaching Assistant(UTA) at{" "}
                 <a
                   href="https://uiu.ac.bd"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="links"
                 >
                   <b>United International University.</b>
                 </a>

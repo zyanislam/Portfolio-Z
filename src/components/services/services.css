@@ -81,7 +81,7 @@
 .services__modal-content {
   width: 500px;
   position: relative;
-  background-color: var(--container-color);
+  background-color: rgb(255, 255, 255);
   padding: 4.5rem 2.5rem 2.5rem;
   border-radius: 1.5rem;
 }
@@ -101,6 +101,7 @@
 
 .services__modal-title,
 .services__modal-description {
+  color: #121212;
   text-align: center;
 }
 
@@ -112,7 +113,7 @@
 
 .services__modal-description {
   font-size: var(--small-font-size);
-  padding: 0 3.5rem;
+  padding: 0 2rem;
   margin-bottom: var(--mb-2);
 }
 
@@ -127,12 +128,17 @@
 }
 
 .services__modal-icon {
-  color: #ffb31c;
+  color: #4c94ff;
   font-size: 1.1rem;
+}
+
+.links {
+  color: #85b6ff;
 }
 
 .services__modal-info {
   font-size: var(--small-font-size);
+  color: #121212;
 }
 
 .active-modal {
