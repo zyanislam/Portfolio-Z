@@ -60,10 +60,10 @@ const Data = () => {
       </h3>{" "}
       <p className="home__description">
         {" "}
-        I am Fahad Al Islam, 24 years old, and currently employed as a Software
-        Engineer at RedDot Digital Limited <strong>(Robi Axiata)</strong> in
-        Bangladesh. I graduated with a Bachelor's degree in Computer Science &
-        Engineering from United International University in September 2023.{" "}
+        I am Fahad A. Islam, currently employed as a Software Engineer at RedDot
+        Digital Limited <strong>(Robi Axiata)</strong> in Bangladesh. I
+        graduated with a Bachelor's degree in Computer Science & Engineering
+        from United International University in September 2023.{" "}
       </p>{" "}
       <p className="home__description">
         {" "}

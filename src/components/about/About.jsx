@@ -21,7 +21,7 @@ const About = () => {
             </b>{" "}
             My name is{" "}
             <b>
-              <em>Sheikh Fahad Al Islam</em>
+              <em>Fahad A. Islam</em>
             </b>{" "}
             and I am working as a Software Engineer at RedDot Digital Limited, a
             subsidiary of Robi Axieta. I am passionate about using my technical
