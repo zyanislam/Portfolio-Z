@@ -4,6 +4,10 @@
   column-gap: 4rem;
 }
 
+.links {
+  color: white;
+}
+
 .about__img {
   width: 320px;
   border-radius: 1.5rem;

@@ -7,8 +7,8 @@ import Info from "./Info";
 const About = () => {
   return (
     <section className="about section" id="about">
-      <h2 className="section__title">About Me!</h2>
-      <span className="section__subtitle">A Look into My Background!</span>
+      <h2 className="section__title">A Little About Me!</h2>
+      <span className="section__subtitle">Looking into My Background!</span>
       <div className="about__container container grid">
         <img src={AboutImg} alt="" className="about__img" />
         <div className="about__data">
@@ -19,6 +19,7 @@ const About = () => {
               {" "}
               <h2>Hello there!</h2>{" "}
             </b>{" "}
+            <br />
             My name is{" "}
             <b>
               <em>Fahad A. Islam</em>
@@ -32,12 +33,13 @@ const About = () => {
               href="https://github.com/zyanislam"
               target="_blank"
               rel="noopener noreferrer"
+              className="links"
             >
               <b>
                 <u>Github</u>
               </b>
               .
-            </a>{" "}
+            </a>
             With my combination of technical and design skills, I strive to
             create beautiful, functional, and user-friendly web experiences for
             my clients.

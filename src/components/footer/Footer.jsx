@@ -1,11 +1,12 @@
 import React from "react";
 import "./footer.css";
+import FooterLogo from "../../assets/by.zyan.png";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__container container">
-        <h1 className="footer__title">Fahad Al Islam</h1>
+        <img src={FooterLogo} alt="" className="footer__img" />
 
         <ul className="footer__list">
           <li>
