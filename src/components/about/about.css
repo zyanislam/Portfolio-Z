@@ -15,7 +15,7 @@
 }
 
 .about__info {
-  grid-template-columns: repeat(3, 140px);
+  grid-template-columns: repeat(3, 160px);
   gap: 0.5rem;
 }
 
@@ -24,12 +24,18 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 0.75rem;
   text-align: center;
-  padding: 1rem 1.25rem;
+  padding: 1.5rem 1.3rem;
 }
 
 .about__icon {
   font-size: 1.5rem;
-  color: #ffb31c;
+  color: #ff8971;
+  margin-bottom: var(--mb-0-5);
+}
+.about__icon2 {
+  font-size: 1.3rem;
+  margin-top: 6px;
+  color: #ff8971;
   margin-bottom: var(--mb-0-5);
 }
 
@@ -40,6 +46,7 @@
 
 .about__subtitle {
   font-size: 14px;
+  color: #a2c7ff;
 }
 
 .about__description {
