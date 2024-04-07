@@ -8,23 +8,23 @@ export const Data = [
   },
   {
     id: 2,
+    title: "Emdad Ullah",
+    designation: "Principal Software Engineer",
+    institution: "RedDot Digital Limited (Robi Axiata)",
+    email: "emdad.ullah@reddotdigitalit.com",
+  },
+  {
+    id: 3,
     title: "Dr. Suman Ahmmed",
     designation: "Asst. Professor",
     institution: "United International University",
     email: "suman@cse.uiu.ac.bd",
   },
   {
-    id: 3,
+    id: 4,
     title: "Md. Hasan Al Kayem",
     designation: "Lecturer",
     institution: "United International University",
     email: "hasan@cse.uiu.ac.bd",
-  },
-  {
-    id: 4,
-    title: "Emdad Ullah",
-    designation: "Principal Software Engineer",
-    institution: "RedDot Digital Limited (Robi Axiata)",
-    email: "emdad.ullah@reddotdigitalit.com",
   },
 ];
