@@ -246,7 +246,7 @@ const Services = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  RedDot Digital Limited (Robi Axieta)
+                  <b>RedDot Digital Limited (A Robi Axieta Company)</b>
                 </a>
                 Since 2023 to the present, I have had the valuable opportunity
                 to harness my creative potential and participate in meaningful

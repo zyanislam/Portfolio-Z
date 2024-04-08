@@ -52,6 +52,7 @@
 .about__description {
   padding: 2rem 4rem 0 0;
   margin-bottom: var(--mb-2-5);
+  color: #f8f8ff;
 }
 
 /*=============== BREAKPOINTS ===============*/

@@ -56,7 +56,8 @@ const Data = () => {
         </svg> */}
       </h1>
       <h3 className="home__subtitle2">
-        Software Engineer <strong> @ </strong> RedDot Digital Limited
+        Software Engineer <strong> @ </strong> RedDot Digital Limited{" "}
+        <strong className="home__company">(A Robi Axiata Company)</strong>
       </h3>
       <p className="home__description">
         Currently serving as a Software Engineer & also as a UI Developer at
