@@ -1,7 +1,5 @@
 # Visit My Portfolio on this link:
 
-# [Portfolio Z](https://portfolio-byzyan.vercel.app)
-
 
 ## Available Scripts
 
